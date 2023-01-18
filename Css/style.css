@@ -22,7 +22,7 @@ body{
     position: relative;
 }
 
-#add-task-form imput{
+#add-task-form input{
     box-sizing: border-box;
     border: 1px solid #34073D;
     background: #fff;
@@ -31,3 +31,34 @@ body{
     font-size: 18px;
     width: 100%;
 }
+
+#add-task-form input::placeholder{
+    color: #34073D;
+}
+
+#add-task-form input:focus{
+    outline: none;
+}
+
+#add-btn{
+    position: absolute;
+    background: #fff;
+    border: 1px solid #34073D;
+    cursor: pointer;
+    transition: .5s;
+    width: 60px;
+    height: 53px;
+    top: 0px;
+    right: 0;
+    padding-top: 3px;
+}
+
+#add-btn:hover{
+    background-color: #34073D;
+    color: #fff;
+}
+
+ion-icon{
+    font-size: 25px;
+}
+
