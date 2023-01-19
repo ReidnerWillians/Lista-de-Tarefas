@@ -5,7 +5,7 @@ body{
     background-image: linear-gradient(to right, #E65763, #34073D);
     color: #fff;
     text-align: center;
-    padding-top: 30px;
+    padding-top:40px;
 }
 
 #tasks-container{
@@ -15,7 +15,7 @@ body{
 }
 
 #tasks-header{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #add-task-form{
@@ -32,7 +32,7 @@ body{
     width: 100%;
 }
 
-#add-task-form input::placeholder{
+#add-task-form input:placeholder{
     color: #34073D;
 }
 
@@ -116,5 +116,5 @@ ion-icon{
 #task-list- li.done {
     background-color: #34073D;
     color: #fff;
-    text-decoration: line-through;
+    text-decoration:line-through;
 }
